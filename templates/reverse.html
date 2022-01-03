@@ -1,4 +1,7 @@
-<h1>Original text has got {{numberofworlds}} worlds:</h1>
+<h1>Original text has got {{numberofworlds}} words:</h1>
 {{usertext}}
 <h1>Reversed Text:</h1>
 {{reversedtext}}
+<form action="{% url 'home' %}">
+	<input type="submit" value="Go back">
+</form>

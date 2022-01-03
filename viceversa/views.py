@@ -10,3 +10,5 @@ def reverse(request):
 	print(user_text)
 	return render(request, 'reverse.html', {'usertext': user_text,
 		'reversedtext':reversed_text, 'numberofworlds':number_of_worlds})
+def information_go(request):
+	return render(request, 'inf.html')
